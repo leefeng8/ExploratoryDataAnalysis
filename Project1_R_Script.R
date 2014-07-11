@@ -1,5 +1,5 @@
 setwd("C:/Users/fenglizh/Documents/Coursera/ExploratoryDataAnalysis")
-dt <- read.table(file="household_power_consumption2.txt", sep=";", header=T) #, colClasses="numeric")
+dt <- read.table(file="household_power_consumption2.txt", sep=";", header=T) 
 
 #plot1.R
 png(file="Plot1.png",width=480,height=480)
@@ -23,7 +23,7 @@ legend("topright", col = c("black", "red", "blue"), lty= "solid", inset = 0, leg
 dev.off()
 
 
-#Plot4
+#Plot4.R
 png("Plot4.png", width=480, height=480)
 par(mfrow=c(2,2)) # or layout(matrix(c(1,2,3,4), 2, 2, byrow = TRUE))
 
