@@ -1,4 +1,9 @@
 ExploratoryDataAnalysis
 =======================
+Hello World,
 
-Project1
+This is the R script for project1. 
+
+Enjoy :-)
+
+
